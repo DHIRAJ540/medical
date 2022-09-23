@@ -1,0 +1,44 @@
+.search_container {
+  padding: 1rem;
+  text-align: left;
+}
+
+.location p {
+  color: gray;
+  cursor: pointer;
+}
+
+.location p span {
+  color: black;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  margin-top: 0.8rem;
+  position: relative;
+  right: 24px;
+}
+
+.input input {
+  padding: 0.5rem;
+  width: 35%;
+  border: 2px solid rgb(157, 157, 157);
+  border-radius: 3px;
+  outline: none;
+  padding-left: 42px;
+  font-size: 1rem;
+  color: rgb(92, 92, 92);
+}
+
+.input img {
+  position: relative;
+  left: 35px;
+}
+
+.btn {
+  padding: 0.6rem;
+  background-color: #00a69a;
+  color: white;
+  cursor: pointer;
+}

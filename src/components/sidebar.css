@@ -1,0 +1,39 @@
+.sidebar_container {
+  width: 20%;
+}
+
+.sidebar_card {
+  margin: 1rem;
+  background: white;
+}
+
+.sidebar_card .title {
+  background-color: gainsboro;
+  padding: 0.5rem;
+  color: rgb(41, 41, 41);
+  border-radius: 5px;
+}
+
+.card_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: left;
+  transition: all 300ms ease;
+}
+
+.card_item p {
+  font-size: 0.9rem;
+}
+
+.card_item:hover {
+  background-color: #00a69a;
+  color: white;
+}
+
+.card_item img {
+  transform: scale(0.8);
+}

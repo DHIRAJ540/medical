@@ -1,0 +1,48 @@
+.header_container {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  padding-left: 1rem;
+}
+
+.header_container h2 {
+  color: gray;
+  font-size: 1.35rem;
+  font-weight: normal;
+}
+
+.header_container h2 span {
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
+
+.tags {
+  display: flex;
+  align-items: center;
+}
+
+.tag {
+  margin-inline: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.2rem 0.8rem;
+  border-radius: 5px;
+  background: #00a69a;
+  color: white;
+}
+
+.tag img {
+  transform: scale(0.6);
+  cursor: pointer;
+}
+
+.tag p {
+  font-size: 0.9rem;
+}
+
+.remove {
+  color: #740c0d;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
